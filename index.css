@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.pocco{
+    width: 100%;
+    height: 780px;
+    background: url(./poco.jpg);
+   
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+
+    color: #222;
+    padding-left: 300px;
+    font-weight: 700;
+}
+.navbar__collection{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+  
+}
